@@ -1,0 +1,8 @@
+{
+  "dataset": "energy",
+  "source": "MCAR",
+  "seed": 11,
+  "arrays_compared": 132,
+  "maximum_absolute_difference": 0.0,
+  "passed": true
+}

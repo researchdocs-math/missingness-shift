@@ -1,0 +1,8 @@
+{
+  "environments": 70,
+  "arrays_checked": 9240,
+  "absolute_tolerance": 1e-06,
+  "maximum_absolute_difference": 0.0,
+  "passed": true,
+  "mismatches": []
+}

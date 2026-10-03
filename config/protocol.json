@@ -1,0 +1,88 @@
+{
+  "datasets": [
+    "wine_red",
+    "wine_white",
+    "concrete",
+    "energy",
+    "airfoil",
+    "abalone",
+    "synthetic"
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "sources": [
+    "MCAR",
+    "Y"
+  ],
+  "source_missing_rate": 0.3,
+  "selection_strength": 3,
+  "always_observed_feature": 0,
+  "split_fractions": [
+    0.55,
+    0.15,
+    0.15,
+    0.15
+  ],
+  "source_only_validation": true,
+  "neural": {
+    "hidden_layers": [
+      64,
+      64
+    ],
+    "learning_rates": [
+      0.0003,
+      0.001,
+      0.003
+    ],
+    "maximum_epochs": 250,
+    "patience": 25,
+    "improvement_tolerance": 1e-06,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "gradient_clip": 5,
+    "recursion_depth": 5,
+    "augmentation_extra_erasure": 0.2
+  },
+  "ridge_alpha": [
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "extra_trees": {
+    "trees": 300,
+    "minimum_leaf": [
+      2,
+      5,
+      10
+    ]
+  },
+  "histogram_boosting": {
+    "maximum_leaves": [
+      7,
+      15,
+      31
+    ],
+    "iterations": 250,
+    "learning_rate": 0.05,
+    "l2_regularization": 1
+  },
+  "iterative_imputer": {
+    "estimator": "BayesianRidge",
+    "maximum_iterations": 10
+  },
+  "interval_nominal_coverage": 0.9,
+  "bootstrap": {
+    "replicates": 20000,
+    "seed": 6021,
+    "units": "datasets, then paired seeds"
+  },
+  "metric_units": "training response standard deviation",
+  "primary_macro_average": "six public datasets; synthetic reported separately"
+}

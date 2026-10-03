@@ -1,0 +1,76 @@
+[
+  {
+    "name": "wine_red",
+    "uci_id": 186,
+    "url": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+    "member": "winequality-red.csv",
+    "sha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+    "n": 1599,
+    "p": 11,
+    "license": "CC BY 4.0",
+    "target": "last column"
+  },
+  {
+    "name": "wine_white",
+    "uci_id": 186,
+    "url": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+    "member": "winequality-white.csv",
+    "sha256": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+    "n": 4898,
+    "p": 11,
+    "license": "CC BY 4.0",
+    "target": "last column"
+  },
+  {
+    "name": "concrete",
+    "uci_id": 165,
+    "url": "https://archive.ics.uci.edu/static/public/165/concrete+compressive+strength.zip",
+    "member": "Concrete_Data.xls",
+    "sha256": "710076c66b9ca3f8050e7942f3dcbdbe04013534daeb0077ffd3079a52d8e0c4",
+    "n": 1030,
+    "p": 8,
+    "license": "CC BY 4.0",
+    "target": "last column"
+  },
+  {
+    "name": "energy",
+    "uci_id": 242,
+    "url": "https://archive.ics.uci.edu/static/public/242/energy+efficiency.zip",
+    "member": "ENB2012_data.xlsx",
+    "sha256": "0089fcffc1415e41e2ff63730cca5280efe54fc43d722dfde1b0aaa808e35dc4",
+    "n": 768,
+    "p": 8,
+    "license": "CC BY 4.0",
+    "target": "heating load"
+  },
+  {
+    "name": "airfoil",
+    "uci_id": 291,
+    "url": "https://archive.ics.uci.edu/static/public/291/airfoil+self+noise.zip",
+    "member": "airfoil_self_noise.dat",
+    "sha256": "74c75fd71783f1e6b71f8a622b993dc592897a97cd689c5090a07147a1b097b3",
+    "n": 1503,
+    "p": 5,
+    "license": "CC BY 4.0",
+    "target": "last column"
+  },
+  {
+    "name": "abalone",
+    "uci_id": 1,
+    "url": "https://archive.ics.uci.edu/static/public/1/abalone.zip",
+    "member": "abalone.data",
+    "sha256": "de37cdcdcaaa50c309d514f248f7c2302a5f1f88c168905eba23fe2fbc78449f",
+    "n": 4177,
+    "p": 7,
+    "license": "CC BY 4.0",
+    "target": "rings"
+  },
+  {
+    "name": "synthetic",
+    "n": 5000,
+    "p": 20,
+    "seed": 8128,
+    "license": "MIT",
+    "target": "2 sin(x0)+x1*x2+0.5*x3^2+x4+Normal(0,0.5^2)"
+  }
+]

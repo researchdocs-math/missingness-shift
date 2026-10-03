@@ -1,0 +1,17 @@
+{
+  "evaluation_rows": 8190,
+  "datasets": 7,
+  "real_datasets": 6,
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "methods": 9,
+  "scenarios": 13,
+  "source_mechanisms": 2,
+  "matched_count_checks": 70,
+  "all_matched_counts_identical": true
+}

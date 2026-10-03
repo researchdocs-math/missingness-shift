@@ -1,0 +1,7352 @@
+[
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.6577444672584534,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.003721952438354492
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.5695672531573478,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 2.419842004776001
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.5669728150403632,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.5426487922668457
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.605100691318512,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 30
+    },
+    "fit_and_evaluation_seconds": 0.6765742301940918
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.5484678149223328,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 26
+    },
+    "fit_and_evaluation_seconds": 0.9031641483306885
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.5556941628456116,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 67
+    },
+    "fit_and_evaluation_seconds": 1.3150460720062256
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.5377774834632874,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 51
+    },
+    "fit_and_evaluation_seconds": 0.56296706199646
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.5338423252105713,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 51
+    },
+    "fit_and_evaluation_seconds": 2.374315023422241
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.6006332039833069,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 49
+    },
+    "fit_and_evaluation_seconds": 1.7053148746490479
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.6927757263183594,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.003756999969482422
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.5847201051792278,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 2.4414432048797607
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.5813313232909414,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.5308177471160889
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.5762087106704712,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 102
+    },
+    "fit_and_evaluation_seconds": 1.6874511241912842
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.5571702122688293,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 1.0416457653045654
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.5410395264625549,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 89
+    },
+    "fit_and_evaluation_seconds": 1.5539872646331787
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.5048068165779114,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 14
+    },
+    "fit_and_evaluation_seconds": 0.7409889698028564
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.5575942397117615,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 1.4874601364135742
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.5799140334129333,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 23
+    },
+    "fit_and_evaluation_seconds": 3.5385329723358154
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.8236622214317322,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0034780502319335938
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.7204030778012686,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 2.2652108669281006
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.7249603307895848,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.49250197410583496
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.7368956208229065,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 59
+    },
+    "fit_and_evaluation_seconds": 0.8945467472076416
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.6840397715568542,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 32
+    },
+    "fit_and_evaluation_seconds": 1.3737421035766602
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.6526826024055481,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 110
+    },
+    "fit_and_evaluation_seconds": 2.217254877090454
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.6214978694915771,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 53
+    },
+    "fit_and_evaluation_seconds": 1.2331740856170654
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.6679215431213379,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 56
+    },
+    "fit_and_evaluation_seconds": 2.867832899093628
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.6669564843177795,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 121
+    },
+    "fit_and_evaluation_seconds": 4.559646368026733
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.7326359748840332,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0033941268920898438
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.6225236712685085,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 2.2518458366394043
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.5961404811737633,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.5046048164367676
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.6484680771827698,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 37
+    },
+    "fit_and_evaluation_seconds": 1.4397633075714111
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.5966650247573853,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 35
+    },
+    "fit_and_evaluation_seconds": 1.5605759620666504
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.5620014071464539,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 109
+    },
+    "fit_and_evaluation_seconds": 2.0703341960906982
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.5650216341018677,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 38
+    },
+    "fit_and_evaluation_seconds": 1.0690176486968994
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.5874884724617004,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 92
+    },
+    "fit_and_evaluation_seconds": 2.8356881141662598
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.578080952167511,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 17
+    },
+    "fit_and_evaluation_seconds": 3.0670909881591797
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.7277433276176453,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.003407716751098633
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.6088713711226805,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 2.2149131298065186
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.5753843619513842,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.47384023666381836
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.61055588722229,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 32
+    },
+    "fit_and_evaluation_seconds": 1.3405423164367676
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.5703123807907104,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 31
+    },
+    "fit_and_evaluation_seconds": 1.2299108505249023
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.5448746085166931,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 53
+    },
+    "fit_and_evaluation_seconds": 1.621150016784668
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.5351393222808838,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 46
+    },
+    "fit_and_evaluation_seconds": 1.5569920539855957
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.5333957672119141,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 61
+    },
+    "fit_and_evaluation_seconds": 2.8316521644592285
+  },
+  {
+    "dataset": "abalone",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.5452013611793518,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 32
+    },
+    "fit_and_evaluation_seconds": 3.159736156463623
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.21178746223449707,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.00347900390625
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.16829910060359476,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 1.584061861038208
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.17430697083687488,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.4956049919128418
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.21371391415596008,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 117
+    },
+    "fit_and_evaluation_seconds": 2.1939897537231445
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.17777283489704132,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 33
+    },
+    "fit_and_evaluation_seconds": 0.8725450038909912
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.19336137175559998,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 61
+    },
+    "fit_and_evaluation_seconds": 1.0082800388336182
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.2456529289484024,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 77
+    },
+    "fit_and_evaluation_seconds": 1.6946220397949219
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.19261434674263,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 215
+    },
+    "fit_and_evaluation_seconds": 3.4824798107147217
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.2008003294467926,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 63
+    },
+    "fit_and_evaluation_seconds": 2.2526051998138428
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.22705772519111633,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0030019283294677734
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.1887894998818395,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 1.6564478874206543
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.19088057858171892,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.518021821975708
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.21316179633140564,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 124
+    },
+    "fit_and_evaluation_seconds": 2.1776959896087646
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.18255089223384857,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 34
+    },
+    "fit_and_evaluation_seconds": 1.0732131004333496
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.2055211365222931,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 47
+    },
+    "fit_and_evaluation_seconds": 0.7596337795257568
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.2669074237346649,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 239
+    },
+    "fit_and_evaluation_seconds": 1.9635920524597168
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.19777575135231018,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 109
+    },
+    "fit_and_evaluation_seconds": 3.293314218521118
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.21220490336418152,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 55
+    },
+    "fit_and_evaluation_seconds": 4.186742067337036
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.27573880553245544,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0035638809204101562
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.22998542502858504,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 1.6957168579101562
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.23670502202572527,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.5224120616912842
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.265084445476532,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 78
+    },
+    "fit_and_evaluation_seconds": 1.919281244277954
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.2187558263540268,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 60
+    },
+    "fit_and_evaluation_seconds": 1.3263700008392334
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.2507803738117218,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 54
+    },
+    "fit_and_evaluation_seconds": 1.114238977432251
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.30273351073265076,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 138
+    },
+    "fit_and_evaluation_seconds": 2.301455020904541
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.23036685585975647,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 210
+    },
+    "fit_and_evaluation_seconds": 3.442513942718506
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.24362777173519135,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 128
+    },
+    "fit_and_evaluation_seconds": 4.24448299407959
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.24059279263019562,
+    "parameters": {
+      "alpha": 1.0
+    },
+    "fit_and_evaluation_seconds": 0.0034720897674560547
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.1918616333042947,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 1.5620760917663574
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.1922688958204215,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.500511884689331
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.2776341438293457,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 21
+    },
+    "fit_and_evaluation_seconds": 0.9666378498077393
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.19154760241508484,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 81
+    },
+    "fit_and_evaluation_seconds": 1.1329960823059082
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.21763446927070618,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 29
+    },
+    "fit_and_evaluation_seconds": 0.780555009841919
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.2752557396888733,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 115
+    },
+    "fit_and_evaluation_seconds": 1.0842278003692627
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.2095925360918045,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 117
+    },
+    "fit_and_evaluation_seconds": 3.136479139328003
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.23089580237865448,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 85
+    },
+    "fit_and_evaluation_seconds": 3.4840071201324463
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.2506966292858124,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0034017562866210938
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.2092679747391359,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 1.5011301040649414
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.2189197704836654,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.4647350311279297
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.2676740288734436,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 112
+    },
+    "fit_and_evaluation_seconds": 1.7066130638122559
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.20752538740634918,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 53
+    },
+    "fit_and_evaluation_seconds": 1.2546031475067139
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.22926652431488037,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 21
+    },
+    "fit_and_evaluation_seconds": 0.7128169536590576
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.29875078797340393,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 225
+    },
+    "fit_and_evaluation_seconds": 2.008094072341919
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.23084834218025208,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 104
+    },
+    "fit_and_evaluation_seconds": 3.3067870140075684
+  },
+  {
+    "dataset": "abalone",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.24154192209243774,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 58
+    },
+    "fit_and_evaluation_seconds": 4.1058478355407715
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.5804427266120911,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.002434968948364258
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.3194743814289197,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.8084490299224854
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.2918923887557151,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.34071826934814453
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3495960831642151,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 240
+    },
+    "fit_and_evaluation_seconds": 1.0409457683563232
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.3468625247478485,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 137
+    },
+    "fit_and_evaluation_seconds": 1.0981178283691406
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.2708970606327057,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 182
+    },
+    "fit_and_evaluation_seconds": 1.2240262031555176
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.26781222224235535,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 175
+    },
+    "fit_and_evaluation_seconds": 1.1770009994506836
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.32157397270202637,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 153
+    },
+    "fit_and_evaluation_seconds": 1.8599779605865479
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.36588048934936523,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 69
+    },
+    "fit_and_evaluation_seconds": 2.416571855545044
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.7672016024589539,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.0024080276489257812
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.42170063612152886,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.7956180572509766
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.2904525295265196,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.33428311347961426
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3482997715473175,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 162
+    },
+    "fit_and_evaluation_seconds": 1.034052848815918
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.4036669135093689,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 186
+    },
+    "fit_and_evaluation_seconds": 1.1161019802093506
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.33256807923316956,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 250
+    },
+    "fit_and_evaluation_seconds": 1.2211880683898926
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.4106861352920532,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 89
+    },
+    "fit_and_evaluation_seconds": 0.9702959060668945
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.3521246016025543,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 246
+    },
+    "fit_and_evaluation_seconds": 1.5797619819641113
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.36409544944763184,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 182
+    },
+    "fit_and_evaluation_seconds": 2.6829960346221924
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.6123788952827454,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.002360105514526367
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.2965713862036032,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.8082609176635742
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.256197541721148,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.3339688777923584
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3594569265842438,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 74
+    },
+    "fit_and_evaluation_seconds": 0.8157989978790283
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.28405436873435974,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 171
+    },
+    "fit_and_evaluation_seconds": 1.0523059368133545
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.22497795522212982,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 239
+    },
+    "fit_and_evaluation_seconds": 1.2659051418304443
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.31100767850875854,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 115
+    },
+    "fit_and_evaluation_seconds": 0.9430489540100098
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.3235326111316681,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 83
+    },
+    "fit_and_evaluation_seconds": 1.2910809516906738
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.3349836468696594,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 105
+    },
+    "fit_and_evaluation_seconds": 2.3923468589782715
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.5658167600631714,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.0026259422302246094
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.35671330071393653,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.8003551959991455
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.31066637216387655,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.34439706802368164
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3783172070980072,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 80
+    },
+    "fit_and_evaluation_seconds": 0.881472110748291
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.43012291193008423,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 41
+    },
+    "fit_and_evaluation_seconds": 0.6796689033508301
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.2780620753765106,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 152
+    },
+    "fit_and_evaluation_seconds": 1.1255459785461426
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.34620586037635803,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 217
+    },
+    "fit_and_evaluation_seconds": 0.9647281169891357
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.33810028433799744,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 123
+    },
+    "fit_and_evaluation_seconds": 1.6112980842590332
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.32326382398605347,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 92
+    },
+    "fit_and_evaluation_seconds": 2.1652021408081055
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.5625178813934326,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.002544879913330078
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.30723187772759064,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.8278059959411621
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.24995923324279237,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.34052205085754395
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.38415291905403137,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 96
+    },
+    "fit_and_evaluation_seconds": 0.5834829807281494
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.39875656366348267,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 195
+    },
+    "fit_and_evaluation_seconds": 0.8827462196350098
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.2682555615901947,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 243
+    },
+    "fit_and_evaluation_seconds": 1.1494488716125488
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.3514529764652252,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 92
+    },
+    "fit_and_evaluation_seconds": 0.7036960124969482
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.3685321509838104,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 81
+    },
+    "fit_and_evaluation_seconds": 1.4302160739898682
+  },
+  {
+    "dataset": "airfoil",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.340027391910553,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 136
+    },
+    "fit_and_evaluation_seconds": 1.8530840873718262
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.2527685761451721,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.002620220184326172
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.1191812495373665,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6361367702484131
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.09450705879724915,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.31532812118530273
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.20135121047496796,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 112
+    },
+    "fit_and_evaluation_seconds": 1.022519826889038
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.11985531449317932,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 129
+    },
+    "fit_and_evaluation_seconds": 0.9340190887451172
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.15109595656394958,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 83
+    },
+    "fit_and_evaluation_seconds": 0.7447528839111328
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.1758989691734314,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 244
+    },
+    "fit_and_evaluation_seconds": 1.2053182125091553
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.15205726027488708,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 148
+    },
+    "fit_and_evaluation_seconds": 1.6816809177398682
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.1431114822626114,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 76
+    },
+    "fit_and_evaluation_seconds": 2.1484317779541016
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.3093548119068146,
+    "parameters": {
+      "alpha": 1.0
+    },
+    "fit_and_evaluation_seconds": 0.0023860931396484375
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.12113596023214084,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6185719966888428
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.10496934085328308,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.3089742660522461
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.15743647515773773,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 201
+    },
+    "fit_and_evaluation_seconds": 1.1127958297729492
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.11624903976917267,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 189
+    },
+    "fit_and_evaluation_seconds": 0.9352781772613525
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.12968796491622925,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 163
+    },
+    "fit_and_evaluation_seconds": 1.0584890842437744
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.18002650141716003,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 147
+    },
+    "fit_and_evaluation_seconds": 1.1469199657440186
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.14853926002979279,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 134
+    },
+    "fit_and_evaluation_seconds": 1.8997437953948975
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.13051235675811768,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 145
+    },
+    "fit_and_evaluation_seconds": 2.8492469787597656
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.22961077094078064,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0024569034576416016
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.14301631462104136,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6079812049865723
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.11706692082512102,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.3158528804779053
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.2380872368812561,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 122
+    },
+    "fit_and_evaluation_seconds": 0.9929099082946777
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.12809425592422485,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 146
+    },
+    "fit_and_evaluation_seconds": 0.8054492473602295
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.20711645483970642,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 52
+    },
+    "fit_and_evaluation_seconds": 0.6596958637237549
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.20186050236225128,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 186
+    },
+    "fit_and_evaluation_seconds": 1.1496617794036865
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.13707710802555084,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 173
+    },
+    "fit_and_evaluation_seconds": 1.8526818752288818
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.16963836550712585,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 113
+    },
+    "fit_and_evaluation_seconds": 2.3704030513763428
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.2576542794704437,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.002463102340698242
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.12330641314303471,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6006820201873779
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.09488701312488934,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.3021240234375
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.17996616661548615,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 190
+    },
+    "fit_and_evaluation_seconds": 1.0273280143737793
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.11792559176683426,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 213
+    },
+    "fit_and_evaluation_seconds": 0.8900930881500244
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.12754297256469727,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 129
+    },
+    "fit_and_evaluation_seconds": 0.7342960834503174
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.16466377675533295,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 242
+    },
+    "fit_and_evaluation_seconds": 1.2279458045959473
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.12946833670139313,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 147
+    },
+    "fit_and_evaluation_seconds": 1.9025299549102783
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.14793848991394043,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 106
+    },
+    "fit_and_evaluation_seconds": 2.3592329025268555
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.21794071793556213,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0023889541625976562
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.10564264736886199,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6009438037872314
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.07858884876873609,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.32327914237976074
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.16963942348957062,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 190
+    },
+    "fit_and_evaluation_seconds": 1.0769989490509033
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.09907689690589905,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 160
+    },
+    "fit_and_evaluation_seconds": 1.0681729316711426
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.15109363198280334,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 67
+    },
+    "fit_and_evaluation_seconds": 0.7029697895050049
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.16766776144504547,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 245
+    },
+    "fit_and_evaluation_seconds": 1.244615077972412
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.13249793648719788,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 170
+    },
+    "fit_and_evaluation_seconds": 1.935495138168335
+  },
+  {
+    "dataset": "airfoil",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.14728353917598724,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 127
+    },
+    "fit_and_evaluation_seconds": 2.4761829376220703
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.568303644657135,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0023407936096191406
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.30692587992724196,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.7682762145996094
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.2780766396711892,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.3354818820953369
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3894287347793579,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 40
+    },
+    "fit_and_evaluation_seconds": 0.4869089126586914
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.3099432587623596,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 153
+    },
+    "fit_and_evaluation_seconds": 0.6475179195404053
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.2769523859024048,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 246
+    },
+    "fit_and_evaluation_seconds": 0.8167920112609863
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.32702139019966125,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 71
+    },
+    "fit_and_evaluation_seconds": 0.6764700412750244
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.34279167652130127,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 84
+    },
+    "fit_and_evaluation_seconds": 1.169966697692871
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.37428411841392517,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 80
+    },
+    "fit_and_evaluation_seconds": 1.1807279586791992
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.45113521814346313,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.00238800048828125
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.3013817747983321,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.7846558094024658
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.2418326401222731,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.33846497535705566
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3296425938606262,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 50
+    },
+    "fit_and_evaluation_seconds": 0.5099852085113525
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.32207202911376953,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 36
+    },
+    "fit_and_evaluation_seconds": 0.4871349334716797
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.2856028079986572,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 77
+    },
+    "fit_and_evaluation_seconds": 0.6446759700775146
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.4365883469581604,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 89
+    },
+    "fit_and_evaluation_seconds": 0.3178141117095947
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.31249645352363586,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 77
+    },
+    "fit_and_evaluation_seconds": 0.7903170585632324
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.3417133390903473,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 97
+    },
+    "fit_and_evaluation_seconds": 0.9417140483856201
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.5733959078788757,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.002382993698120117
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.3300547924126202,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.8028390407562256
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.29989603302447854,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.35608386993408203
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.35013753175735474,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 69
+    },
+    "fit_and_evaluation_seconds": 0.6224548816680908
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.372348427772522,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 138
+    },
+    "fit_and_evaluation_seconds": 0.6413609981536865
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.3304762542247772,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 109
+    },
+    "fit_and_evaluation_seconds": 0.7008059024810791
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.38402584195137024,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 144
+    },
+    "fit_and_evaluation_seconds": 0.7171330451965332
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.3821849226951599,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 72
+    },
+    "fit_and_evaluation_seconds": 1.0709939002990723
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.3873726427555084,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 183
+    },
+    "fit_and_evaluation_seconds": 1.365412950515747
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.5340954661369324,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0023288726806640625
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.33683210180963835,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.7805249691009521
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.2805548101244848,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.3362691402435303
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3675661087036133,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 53
+    },
+    "fit_and_evaluation_seconds": 0.43837809562683105
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.36253803968429565,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 57
+    },
+    "fit_and_evaluation_seconds": 0.5904340744018555
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.34145787358283997,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 63
+    },
+    "fit_and_evaluation_seconds": 0.7500827312469482
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.36998316645622253,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 250
+    },
+    "fit_and_evaluation_seconds": 0.6203958988189697
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.3491634428501129,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 100
+    },
+    "fit_and_evaluation_seconds": 1.0913679599761963
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.4084019362926483,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 50
+    },
+    "fit_and_evaluation_seconds": 1.0410118103027344
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.5538007020950317,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0023500919342041016
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.3676462094918101,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.7867190837860107
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.3336826926858179,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.3179028034210205
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.39256203174591064,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 116
+    },
+    "fit_and_evaluation_seconds": 0.528048038482666
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.40551283955574036,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 245
+    },
+    "fit_and_evaluation_seconds": 0.5350687503814697
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.32802486419677734,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 236
+    },
+    "fit_and_evaluation_seconds": 0.7470557689666748
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.3716031312942505,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 180
+    },
+    "fit_and_evaluation_seconds": 0.7629292011260986
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.41650623083114624,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 62
+    },
+    "fit_and_evaluation_seconds": 0.8471148014068604
+  },
+  {
+    "dataset": "concrete",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.4655178189277649,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 56
+    },
+    "fit_and_evaluation_seconds": 0.9301328659057617
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.1356503814458847,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0024111270904541016
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.10332102755189988,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6355009078979492
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.0809904787766445,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.3153688907623291
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.11894562840461731,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 74
+    },
+    "fit_and_evaluation_seconds": 0.605006217956543
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.08580538630485535,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 35
+    },
+    "fit_and_evaluation_seconds": 0.523871898651123
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.11813528835773468,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 72
+    },
+    "fit_and_evaluation_seconds": 0.4653439521789551
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.14165762066841125,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 52
+    },
+    "fit_and_evaluation_seconds": 0.7490522861480713
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.13726194202899933,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 75
+    },
+    "fit_and_evaluation_seconds": 1.1210379600524902
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.1839233636856079,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 81
+    },
+    "fit_and_evaluation_seconds": 1.2539770603179932
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.13893306255340576,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0027511119842529297
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.11118713655094672,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6244199275970459
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.08521337412843809,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.3233988285064697
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.12225604057312012,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 128
+    },
+    "fit_and_evaluation_seconds": 0.8133299350738525
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.08725836127996445,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 70
+    },
+    "fit_and_evaluation_seconds": 0.6892781257629395
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.13086040318012238,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 90
+    },
+    "fit_and_evaluation_seconds": 0.5048031806945801
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.19639045000076294,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 141
+    },
+    "fit_and_evaluation_seconds": 0.6860270500183105
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.13727375864982605,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 54
+    },
+    "fit_and_evaluation_seconds": 1.2842729091644287
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.14358019828796387,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 89
+    },
+    "fit_and_evaluation_seconds": 1.466722011566162
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.1923404037952423,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0022699832916259766
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.10190346099198828,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6272509098052979
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.102918002311393,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.32176804542541504
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.16933423280715942,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 73
+    },
+    "fit_and_evaluation_seconds": 0.6625487804412842
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.11511816084384918,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 237
+    },
+    "fit_and_evaluation_seconds": 0.5490391254425049
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.129753977060318,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 58
+    },
+    "fit_and_evaluation_seconds": 0.45366978645324707
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.1557791531085968,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 125
+    },
+    "fit_and_evaluation_seconds": 0.7992620468139648
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.17507581412792206,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 89
+    },
+    "fit_and_evaluation_seconds": 1.3309919834136963
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.1337682008743286,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 88
+    },
+    "fit_and_evaluation_seconds": 1.5412988662719727
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.20844140648841858,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0023241043090820312
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.1468007333197526,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.626899003982544
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.10638864432061809,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.5059299468994141
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.12032576650381088,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 222
+    },
+    "fit_and_evaluation_seconds": 0.84344482421875
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.12508027255535126,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 113
+    },
+    "fit_and_evaluation_seconds": 0.6427876949310303
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.12880995869636536,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 99
+    },
+    "fit_and_evaluation_seconds": 0.7337450981140137
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.15804433822631836,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 92
+    },
+    "fit_and_evaluation_seconds": 0.8057208061218262
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.1554696410894394,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 90
+    },
+    "fit_and_evaluation_seconds": 1.097376823425293
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.16817700862884521,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 87
+    },
+    "fit_and_evaluation_seconds": 0.930933952331543
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.14679962396621704,
+    "parameters": {
+      "alpha": 1.0
+    },
+    "fit_and_evaluation_seconds": 0.002299785614013672
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.11414210385091977,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.7650351524353027
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.08535636053933869,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.3479440212249756
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.1361420750617981,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 115
+    },
+    "fit_and_evaluation_seconds": 0.8631150722503662
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.0909687876701355,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 72
+    },
+    "fit_and_evaluation_seconds": 0.6730990409851074
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.11051952093839645,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 102
+    },
+    "fit_and_evaluation_seconds": 0.6665329933166504
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.16102223098278046,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 102
+    },
+    "fit_and_evaluation_seconds": 0.8506510257720947
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.14365024864673615,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 106
+    },
+    "fit_and_evaluation_seconds": 1.3084540367126465
+  },
+  {
+    "dataset": "concrete",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.1501823216676712,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 63
+    },
+    "fit_and_evaluation_seconds": 1.1580119132995605
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.18375761806964874,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.005813121795654297
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.029109574678754614,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.4422299861907959
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.027316885209399157,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.17600798606872559
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.08741665631532669,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 88
+    },
+    "fit_and_evaluation_seconds": 0.7397031784057617
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.0805395245552063,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 41
+    },
+    "fit_and_evaluation_seconds": 0.2745788097381592
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.03815804421901703,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 220
+    },
+    "fit_and_evaluation_seconds": 0.5151288509368896
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.050648003816604614,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 169
+    },
+    "fit_and_evaluation_seconds": 0.43419599533081055
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.06840350478887558,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 125
+    },
+    "fit_and_evaluation_seconds": 0.6178832054138184
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.06974836438894272,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 134
+    },
+    "fit_and_evaluation_seconds": 0.753922700881958
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.25053539872169495,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0021467208862304688
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.0507308649622203,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.7273483276367188
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.040821937733082715,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.25989317893981934
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.13074162602424622,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 239
+    },
+    "fit_and_evaluation_seconds": 0.5947380065917969
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.1417989283800125,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 140
+    },
+    "fit_and_evaluation_seconds": 0.4923422336578369
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.10923627018928528,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 184
+    },
+    "fit_and_evaluation_seconds": 0.6214437484741211
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.058248121291399,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 230
+    },
+    "fit_and_evaluation_seconds": 0.774024248123169
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.11499899625778198,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 192
+    },
+    "fit_and_evaluation_seconds": 0.985471248626709
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.1155199334025383,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 203
+    },
+    "fit_and_evaluation_seconds": 1.0409750938415527
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.2664010524749756,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0022051334381103516
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.09977678238155281,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6596071720123291
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.03881899690464772,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.24869203567504883
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.1188034862279892,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 193
+    },
+    "fit_and_evaluation_seconds": 0.5634260177612305
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.1311085969209671,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 56
+    },
+    "fit_and_evaluation_seconds": 0.4193449020385742
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.051893170922994614,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 229
+    },
+    "fit_and_evaluation_seconds": 0.6760659217834473
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.04587429761886597,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 169
+    },
+    "fit_and_evaluation_seconds": 0.7124271392822266
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.10787888616323471,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 163
+    },
+    "fit_and_evaluation_seconds": 1.014329195022583
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.133732408285141,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 85
+    },
+    "fit_and_evaluation_seconds": 1.0182161331176758
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.28326380252838135,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0020940303802490234
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.041777514903983605,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6486961841583252
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.03209833939181708,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.23183488845825195
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.15446017682552338,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 170
+    },
+    "fit_and_evaluation_seconds": 0.5516378879547119
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.15611661970615387,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 124
+    },
+    "fit_and_evaluation_seconds": 0.47545504570007324
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.11631420254707336,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 59
+    },
+    "fit_and_evaluation_seconds": 0.46732091903686523
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.06370005756616592,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 242
+    },
+    "fit_and_evaluation_seconds": 0.7684321403503418
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.1712576299905777,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 92
+    },
+    "fit_and_evaluation_seconds": 0.8909687995910645
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.11983665823936462,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 120
+    },
+    "fit_and_evaluation_seconds": 0.9730989933013916
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.3463621437549591,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0021371841430664062
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.055001047758614814,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.6381299495697021
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.02115606480878206,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.22789311408996582
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.1470908671617508,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 77
+    },
+    "fit_and_evaluation_seconds": 0.4968681335449219
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.1806751787662506,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 40
+    },
+    "fit_and_evaluation_seconds": 0.3934750556945801
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.0505874939262867,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 206
+    },
+    "fit_and_evaluation_seconds": 0.7215070724487305
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.1035599336028099,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 182
+    },
+    "fit_and_evaluation_seconds": 0.6528708934783936
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.19923651218414307,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 73
+    },
+    "fit_and_evaluation_seconds": 0.6742279529571533
+  },
+  {
+    "dataset": "energy",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.20223703980445862,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 80
+    },
+    "fit_and_evaluation_seconds": 0.8927931785583496
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.07365979999303818,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.002160310745239258
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.048181767875396984,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.5174779891967773
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.02220152974800089,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.23165202140808105
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.053656239062547684,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 142
+    },
+    "fit_and_evaluation_seconds": 0.5527570247650146
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.05925405025482178,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 36
+    },
+    "fit_and_evaluation_seconds": 0.30902791023254395
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.05814262852072716,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 151
+    },
+    "fit_and_evaluation_seconds": 0.4371631145477295
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.042782384902238846,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 249
+    },
+    "fit_and_evaluation_seconds": 0.5634779930114746
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.07702316343784332,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 46
+    },
+    "fit_and_evaluation_seconds": 0.5952091217041016
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.10967860370874405,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 54
+    },
+    "fit_and_evaluation_seconds": 0.5609872341156006
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.04940371960401535,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0021479129791259766
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.05224835704139061,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.5005156993865967
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.031761814855127586,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.22048687934875488
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.05561717227101326,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 185
+    },
+    "fit_and_evaluation_seconds": 0.5004839897155762
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.04539813846349716,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 102
+    },
+    "fit_and_evaluation_seconds": 0.5035269260406494
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.06966737657785416,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 48
+    },
+    "fit_and_evaluation_seconds": 0.387692928314209
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.036908723413944244,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 197
+    },
+    "fit_and_evaluation_seconds": 0.658581018447876
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.044091735035181046,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 218
+    },
+    "fit_and_evaluation_seconds": 0.8197338581085205
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.06717043370008469,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 163
+    },
+    "fit_and_evaluation_seconds": 1.1041159629821777
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.05800700932741165,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.002110004425048828
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.05137483964356401,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.4936251640319824
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.03146908583445006,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.218095064163208
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.061438847333192825,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 76
+    },
+    "fit_and_evaluation_seconds": 0.43409204483032227
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.058970894664525986,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 16
+    },
+    "fit_and_evaluation_seconds": 0.24459505081176758
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.0646173357963562,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 58
+    },
+    "fit_and_evaluation_seconds": 0.3539612293243408
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.0476359985768795,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 135
+    },
+    "fit_and_evaluation_seconds": 0.5856928825378418
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.08959052711725235,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 26
+    },
+    "fit_and_evaluation_seconds": 0.509382963180542
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.09324473142623901,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 122
+    },
+    "fit_and_evaluation_seconds": 0.7695901393890381
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.07427193224430084,
+    "parameters": {
+      "alpha": 1.0
+    },
+    "fit_and_evaluation_seconds": 0.002218961715698242
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.05006103541618486,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.48246097564697266
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.03363595654795304,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.2238600254058838
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.07280927151441574,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 247
+    },
+    "fit_and_evaluation_seconds": 0.5438258647918701
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.06036180257797241,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 86
+    },
+    "fit_and_evaluation_seconds": 0.46659016609191895
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.06830176711082458,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 248
+    },
+    "fit_and_evaluation_seconds": 0.3810269832611084
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.05168736353516579,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 229
+    },
+    "fit_and_evaluation_seconds": 0.6950469017028809
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.06633336842060089,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 209
+    },
+    "fit_and_evaluation_seconds": 1.0237879753112793
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.06337861716747284,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 189
+    },
+    "fit_and_evaluation_seconds": 1.196620225906372
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.059576429426670074,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.002112865447998047
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.03187449512741357,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.49320316314697266
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.023851105403569228,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.21685218811035156
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.049330972135066986,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 240
+    },
+    "fit_and_evaluation_seconds": 0.548367977142334
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.03848409652709961,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 74
+    },
+    "fit_and_evaluation_seconds": 0.44275617599487305
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.04525316506624222,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 61
+    },
+    "fit_and_evaluation_seconds": 0.44750404357910156
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.043983861804008484,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 200
+    },
+    "fit_and_evaluation_seconds": 0.6814000606536865
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.04867542162537575,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 222
+    },
+    "fit_and_evaluation_seconds": 0.8234829902648926
+  },
+  {
+    "dataset": "energy",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.08108481019735336,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 59
+    },
+    "fit_and_evaluation_seconds": 0.698962926864624
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.5368691086769104,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.005600929260253906
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.2228304305741971,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 7.5461249351501465
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.20393453942321177,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 1.0510931015014648
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.27719351649284363,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 21
+    },
+    "fit_and_evaluation_seconds": 1.2058980464935303
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.2538340389728546,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 16
+    },
+    "fit_and_evaluation_seconds": 1.1713740825653076
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.20412908494472504,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 65
+    },
+    "fit_and_evaluation_seconds": 2.1336960792541504
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.2238655388355255,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 1.4644229412078857
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.22933875024318695,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 28
+    },
+    "fit_and_evaluation_seconds": 2.4029719829559326
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.2625196874141693,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 20
+    },
+    "fit_and_evaluation_seconds": 2.2701570987701416
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.4531952440738678,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.004918098449707031
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.22018429543794568,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 7.589138746261597
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.203213072719445,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 1.037093162536621
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.242521733045578,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 43
+    },
+    "fit_and_evaluation_seconds": 1.0854268074035645
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.22469258308410645,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 1.0495429039001465
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.19241167604923248,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 229
+    },
+    "fit_and_evaluation_seconds": 1.982475996017456
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.2095925360918045,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 21
+    },
+    "fit_and_evaluation_seconds": 1.3778660297393799
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.21569104492664337,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 1.9614839553833008
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.26685529947280884,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 24
+    },
+    "fit_and_evaluation_seconds": 2.892630100250244
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.4909641146659851,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.005700826644897461
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.2323408496526638,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 7.5370192527771
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.21097576380577765,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 1.0626740455627441
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.26475247740745544,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 1.1277477741241455
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.23880501091480255,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 44
+    },
+    "fit_and_evaluation_seconds": 0.999891996383667
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.20762382447719574,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 33
+    },
+    "fit_and_evaluation_seconds": 2.0178940296173096
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.22410517930984497,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 20
+    },
+    "fit_and_evaluation_seconds": 1.5318048000335693
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.24031761288642883,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 31
+    },
+    "fit_and_evaluation_seconds": 2.012619972229004
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.24357160925865173,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 2.1112639904022217
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.6670230031013489,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.005553245544433594
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.2910956966852308,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 7.743602991104126
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.24974378532394467,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 1.1518309116363525
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.31791722774505615,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 30
+    },
+    "fit_and_evaluation_seconds": 1.700456142425537
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.33254143595695496,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 26
+    },
+    "fit_and_evaluation_seconds": 1.6493899822235107
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.24201835691928864,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 71
+    },
+    "fit_and_evaluation_seconds": 2.186919927597046
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.28252193331718445,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 36
+    },
+    "fit_and_evaluation_seconds": 1.745732069015503
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.2569902837276459,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 25
+    },
+    "fit_and_evaluation_seconds": 2.453914165496826
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.30284929275512695,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 52
+    },
+    "fit_and_evaluation_seconds": 2.5543270111083984
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.5413674116134644,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.005933046340942383
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.23706235731397812,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 8.038558959960938
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.20790158440412945,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 1.029402732849121
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.2652677297592163,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 22
+    },
+    "fit_and_evaluation_seconds": 1.0711100101470947
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.2471478283405304,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 120
+    },
+    "fit_and_evaluation_seconds": 1.0925571918487549
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.2078341841697693,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 247
+    },
+    "fit_and_evaluation_seconds": 2.428100109100342
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.22949710488319397,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 163
+    },
+    "fit_and_evaluation_seconds": 1.7132530212402344
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.24532240629196167,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 28
+    },
+    "fit_and_evaluation_seconds": 2.2015390396118164
+  },
+  {
+    "dataset": "synthetic",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.2660185694694519,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 26
+    },
+    "fit_and_evaluation_seconds": 2.721053123474121
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.15115326642990112,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.005317211151123047
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.1136807461734833,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 5.581958055496216
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.08245294474528854,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 1.1688718795776367
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.20136594772338867,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 34
+    },
+    "fit_and_evaluation_seconds": 1.4424493312835693
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.08816772699356079,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 212
+    },
+    "fit_and_evaluation_seconds": 1.5853800773620605
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.09910967946052551,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 43
+    },
+    "fit_and_evaluation_seconds": 1.5709080696105957
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.1629677563905716,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 28
+    },
+    "fit_and_evaluation_seconds": 2.0976200103759766
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.14459870755672455,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 45
+    },
+    "fit_and_evaluation_seconds": 3.0726730823516846
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.1299794316291809,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 85
+    },
+    "fit_and_evaluation_seconds": 3.524480104446411
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.14088895916938782,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.005671977996826172
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.10522260284177666,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 5.32741379737854
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.08558061048097568,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 1.1656670570373535
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.2395702749490738,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 61
+    },
+    "fit_and_evaluation_seconds": 1.5800111293792725
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.09147009998559952,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 39
+    },
+    "fit_and_evaluation_seconds": 1.8327319622039795
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.11294306069612503,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 110
+    },
+    "fit_and_evaluation_seconds": 1.977754831314087
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.1973157525062561,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 51
+    },
+    "fit_and_evaluation_seconds": 2.252758026123047
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.13351094722747803,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 60
+    },
+    "fit_and_evaluation_seconds": 3.2847280502319336
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.16330280900001526,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 46
+    },
+    "fit_and_evaluation_seconds": 2.7064950466156006
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.13569822907447815,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.00545191764831543
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.11086986460638877,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 5.2997682094573975
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.08163950195580615,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 1.108816146850586
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.2538555860519409,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 57
+    },
+    "fit_and_evaluation_seconds": 1.4179868698120117
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.08640706539154053,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 31
+    },
+    "fit_and_evaluation_seconds": 1.143151044845581
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.10656779259443283,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 66
+    },
+    "fit_and_evaluation_seconds": 2.0512850284576416
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.17983096837997437,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 34
+    },
+    "fit_and_evaluation_seconds": 2.1551177501678467
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.14128553867340088,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 48
+    },
+    "fit_and_evaluation_seconds": 3.5098540782928467
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.13741065561771393,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 50
+    },
+    "fit_and_evaluation_seconds": 3.796276092529297
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.21587760746479034,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.005743265151977539
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.14822823361236603,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 5.423943281173706
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.12574014702391076,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 1.2424120903015137
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.26771655678749084,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 96
+    },
+    "fit_and_evaluation_seconds": 1.7129271030426025
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.13803967833518982,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 51
+    },
+    "fit_and_evaluation_seconds": 1.893878698348999
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.13790681958198547,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 77
+    },
+    "fit_and_evaluation_seconds": 2.0468602180480957
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.2077413946390152,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 57
+    },
+    "fit_and_evaluation_seconds": 2.153550148010254
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.189689040184021,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 53
+    },
+    "fit_and_evaluation_seconds": 2.9932539463043213
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.1722589135169983,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 230
+    },
+    "fit_and_evaluation_seconds": 3.205357074737549
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.1450146734714508,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.0063059329986572266
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.11744863328762528,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 5.5780322551727295
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.09246166345528559,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 1.1591732501983643
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.23727795481681824,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 41
+    },
+    "fit_and_evaluation_seconds": 1.7603168487548828
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.09591955691576004,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 36
+    },
+    "fit_and_evaluation_seconds": 1.5021519660949707
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.11529738456010818,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 56
+    },
+    "fit_and_evaluation_seconds": 1.2686069011688232
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.18253998458385468,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 39
+    },
+    "fit_and_evaluation_seconds": 1.7839241027832031
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.1647767573595047,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 44
+    },
+    "fit_and_evaluation_seconds": 2.5353991985321045
+  },
+  {
+    "dataset": "synthetic",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.15714044868946075,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 44
+    },
+    "fit_and_evaluation_seconds": 2.9268596172332764
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.8520662188529968,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.002524137496948242
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.7825404747636563,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 1.0848290920257568
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.7892772185706443,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.37351202964782715
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.8023815751075745,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 6
+    },
+    "fit_and_evaluation_seconds": 0.4933178424835205
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.8185082077980042,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 13
+    },
+    "fit_and_evaluation_seconds": 0.2541999816894531
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.7938429713249207,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 42
+    },
+    "fit_and_evaluation_seconds": 0.3512380123138428
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.7586154341697693,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 5
+    },
+    "fit_and_evaluation_seconds": 0.31851625442504883
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.8156130313873291,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 21
+    },
+    "fit_and_evaluation_seconds": 0.5768780708312988
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.7789704203605652,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 13
+    },
+    "fit_and_evaluation_seconds": 0.9131710529327393
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.6653481721878052,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.0025207996368408203
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.677695503788151,
+    "parameters": {
+      "min_samples_leaf": 10
+    },
+    "fit_and_evaluation_seconds": 1.0771679878234863
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.6662396436530064,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.35056519508361816
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.6535887718200684,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 18
+    },
+    "fit_and_evaluation_seconds": 0.5083508491516113
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.6514689922332764,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 16
+    },
+    "fit_and_evaluation_seconds": 0.21359586715698242
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.6494168043136597,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 41
+    },
+    "fit_and_evaluation_seconds": 0.27971506118774414
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.5812637805938721,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 9
+    },
+    "fit_and_evaluation_seconds": 0.4223339557647705
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.651429295539856,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 9
+    },
+    "fit_and_evaluation_seconds": 0.38400793075561523
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.6602333784103394,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 42
+    },
+    "fit_and_evaluation_seconds": 0.5972027778625488
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.7762632369995117,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.0025250911712646484
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.708864853189099,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 1.1091129779815674
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.733571387328576,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.3749728202819824
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.7432141304016113,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 8
+    },
+    "fit_and_evaluation_seconds": 0.4594759941101074
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.7497970461845398,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 9
+    },
+    "fit_and_evaluation_seconds": 0.18543505668640137
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.7339353561401367,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 32
+    },
+    "fit_and_evaluation_seconds": 0.2068781852722168
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.7266227006912231,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 34
+    },
+    "fit_and_evaluation_seconds": 0.2966616153717041
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.7782264351844788,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 10
+    },
+    "fit_and_evaluation_seconds": 0.28659725189208984
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.7767403721809387,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 16
+    },
+    "fit_and_evaluation_seconds": 0.5979280471801758
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.7404611706733704,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.0025517940521240234
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.7047646735871514,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 1.0725359916687012
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.6638076781100528,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.3541221618652344
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.6685514450073242,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 57
+    },
+    "fit_and_evaluation_seconds": 0.7295150756835938
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.6980952024459839,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 21
+    },
+    "fit_and_evaluation_seconds": 0.38158392906188965
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.6772610545158386,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 25
+    },
+    "fit_and_evaluation_seconds": 0.5263710021972656
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.6858586668968201,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 14
+    },
+    "fit_and_evaluation_seconds": 0.5619430541992188
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.7095502614974976,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 22
+    },
+    "fit_and_evaluation_seconds": 0.4040060043334961
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.7248276472091675,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 23
+    },
+    "fit_and_evaluation_seconds": 0.9711349010467529
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.8518947958946228,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0025680065155029297
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.7659595102990272,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 1.1140570640563965
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.7811577521224914,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.38277697563171387
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.7823869585990906,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 5
+    },
+    "fit_and_evaluation_seconds": 0.5301971435546875
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.8216543793678284,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 21
+    },
+    "fit_and_evaluation_seconds": 0.43524718284606934
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.8003937005996704,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 48
+    },
+    "fit_and_evaluation_seconds": 0.4061739444732666
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.7782506346702576,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 92
+    },
+    "fit_and_evaluation_seconds": 0.49396204948425293
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.7874290347099304,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 6
+    },
+    "fit_and_evaluation_seconds": 0.44912004470825195
+  },
+  {
+    "dataset": "wine_red",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.8862252235412598,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 22
+    },
+    "fit_and_evaluation_seconds": 0.835568904876709
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.1986091434955597,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0025250911712646484
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.15238392829878714,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.7404699325561523
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.15281386894120796,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.38893985748291016
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3436407744884491,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 41
+    },
+    "fit_and_evaluation_seconds": 1.0788509845733643
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.15674561262130737,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 31
+    },
+    "fit_and_evaluation_seconds": 0.6936719417572021
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.28804996609687805,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 49
+    },
+    "fit_and_evaluation_seconds": 0.31665778160095215
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.3942628800868988,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 56
+    },
+    "fit_and_evaluation_seconds": 0.9211418628692627
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.2611309587955475,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 61
+    },
+    "fit_and_evaluation_seconds": 1.202361822128296
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.3092767596244812,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 59
+    },
+    "fit_and_evaluation_seconds": 2.156810998916626
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.14417147636413574,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.0027437210083007812
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.1660719650808159,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 0.9110891819000244
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.14730662692658056,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.4211299419403076
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3363652527332306,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 63
+    },
+    "fit_and_evaluation_seconds": 0.5369508266448975
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.1679365038871765,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 15
+    },
+    "fit_and_evaluation_seconds": 0.3400382995605469
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.2400774508714676,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 15
+    },
+    "fit_and_evaluation_seconds": 0.2876298427581787
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.3485862910747528,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 37
+    },
+    "fit_and_evaluation_seconds": 0.7612931728363037
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.2753511369228363,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 56
+    },
+    "fit_and_evaluation_seconds": 1.2134099006652832
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.23898255825042725,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 58
+    },
+    "fit_and_evaluation_seconds": 2.03381609916687
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.20391426980495453,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0029120445251464844
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.19318167604327496,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 0.8834011554718018
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.1927644359391338,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.456636905670166
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.40516579151153564,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 54
+    },
+    "fit_and_evaluation_seconds": 0.6880252361297607
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.19687587022781372,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 28
+    },
+    "fit_and_evaluation_seconds": 0.45865392684936523
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.31541264057159424,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 33
+    },
+    "fit_and_evaluation_seconds": 0.2977941036224365
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.5094053745269775,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 65
+    },
+    "fit_and_evaluation_seconds": 0.70151686668396
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.33299535512924194,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 32
+    },
+    "fit_and_evaluation_seconds": 1.0006263256072998
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.35737156867980957,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 64
+    },
+    "fit_and_evaluation_seconds": 2.1053450107574463
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.16944675147533417,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0026650428771972656
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.16247988306846065,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.8818130493164062
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.1485002357620992,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.41243791580200195
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3590798079967499,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 91
+    },
+    "fit_and_evaluation_seconds": 0.6739068031311035
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.13940826058387756,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 160
+    },
+    "fit_and_evaluation_seconds": 0.5127387046813965
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.23222488164901733,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 31
+    },
+    "fit_and_evaluation_seconds": 0.33405423164367676
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.41097766160964966,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 114
+    },
+    "fit_and_evaluation_seconds": 0.9439690113067627
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.2899635136127472,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 57
+    },
+    "fit_and_evaluation_seconds": 1.3540871143341064
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.257535845041275,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 53
+    },
+    "fit_and_evaluation_seconds": 2.0384018421173096
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.20552648603916168,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0025787353515625
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.18299560164515663,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 0.9070520401000977
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.18397125867821743,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.46542787551879883
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.39441555738449097,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 48
+    },
+    "fit_and_evaluation_seconds": 0.752169132232666
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.17180363833904266,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 48
+    },
+    "fit_and_evaluation_seconds": 0.7934808731079102
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.2796911597251892,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 8
+    },
+    "fit_and_evaluation_seconds": 0.3504021167755127
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.478040486574173,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 52
+    },
+    "fit_and_evaluation_seconds": 0.9216930866241455
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.32680314779281616,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 249
+    },
+    "fit_and_evaluation_seconds": 1.2873258590698242
+  },
+  {
+    "dataset": "wine_red",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.3255804181098938,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 70
+    },
+    "fit_and_evaluation_seconds": 1.9188048839569092
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.9176185727119446,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.0048160552978515625
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.8055355941901517,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 4.2957470417022705
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.8011575341635193,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.6257469654083252
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.8400430083274841,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 17
+    },
+    "fit_and_evaluation_seconds": 0.9581670761108398
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.8041642308235168,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 13
+    },
+    "fit_and_evaluation_seconds": 0.8272428512573242
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.7927229404449463,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 21
+    },
+    "fit_and_evaluation_seconds": 1.2908270359039307
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.7826045751571655,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 20
+    },
+    "fit_and_evaluation_seconds": 1.164241075515747
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.8207554817199707,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 11
+    },
+    "fit_and_evaluation_seconds": 1.316227674484253
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.808875560760498,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 11
+    },
+    "fit_and_evaluation_seconds": 2.252969980239868
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.8462943434715271,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.005652904510498047
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.7347669784924765,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 4.304365634918213
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.7124134864692336,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.6348111629486084
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.7530841827392578,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 0.9457848072052002
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.7591995000839233,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 11
+    },
+    "fit_and_evaluation_seconds": 0.7624361515045166
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.7425814867019653,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 21
+    },
+    "fit_and_evaluation_seconds": 0.9632058143615723
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.7884977459907532,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 4
+    },
+    "fit_and_evaluation_seconds": 0.6631410121917725
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.7740756869316101,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 10
+    },
+    "fit_and_evaluation_seconds": 1.165679931640625
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.7691901326179504,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 15
+    },
+    "fit_and_evaluation_seconds": 3.101961135864258
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.8464351892471313,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.004370927810668945
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.7276312192035221,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 4.0815629959106445
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.7107373783973598,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.6379728317260742
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.7649936079978943,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 0.8092920780181885
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.7996569275856018,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 4
+    },
+    "fit_and_evaluation_seconds": 0.5520281791687012
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.7593563199043274,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 20
+    },
+    "fit_and_evaluation_seconds": 0.9150900840759277
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.7328804135322571,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 7
+    },
+    "fit_and_evaluation_seconds": 0.8500707149505615
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.7908604741096497,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 12
+    },
+    "fit_and_evaluation_seconds": 1.1443629264831543
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.8158685564994812,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 6
+    },
+    "fit_and_evaluation_seconds": 1.692007303237915
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.8443794846534729,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.0045397281646728516
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.7457213769036954,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 4.12648606300354
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.7239099941903792,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.7007780075073242
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.7408308386802673,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 46
+    },
+    "fit_and_evaluation_seconds": 1.1415417194366455
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.7342546582221985,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 72
+    },
+    "fit_and_evaluation_seconds": 0.8402869701385498
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.7271082401275635,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 156
+    },
+    "fit_and_evaluation_seconds": 1.471846103668213
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.7088074088096619,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 43
+    },
+    "fit_and_evaluation_seconds": 1.0369539260864258
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.7652347683906555,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 15
+    },
+    "fit_and_evaluation_seconds": 1.4556312561035156
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.7803184986114502,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 16
+    },
+    "fit_and_evaluation_seconds": 2.9161128997802734
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.7113908529281616,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.004140138626098633
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.6117191944153757,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 4.059364080429077
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.6021870678964503,
+    "parameters": {
+      "max_leaf_nodes": 7
+    },
+    "fit_and_evaluation_seconds": 0.6440932750701904
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.6461270451545715,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 0.815065860748291
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.6392828822135925,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 8
+    },
+    "fit_and_evaluation_seconds": 0.720585823059082
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.6199398636817932,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 64
+    },
+    "fit_and_evaluation_seconds": 1.6357800960540771
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.6214010119438171,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 14
+    },
+    "fit_and_evaluation_seconds": 0.7875876426696777
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.6349660754203796,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 99
+    },
+    "fit_and_evaluation_seconds": 1.4720971584320068
+  },
+  {
+    "dataset": "wine_white",
+    "source": "MCAR",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.6355118751525879,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 10
+    },
+    "fit_and_evaluation_seconds": 2.6568431854248047
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 11,
+    "method": "Ridge+mask",
+    "validation_mse": 0.2504397928714752,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.003959178924560547
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 11,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.18583822133012648,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 2.4733948707580566
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 11,
+    "method": "HistGB",
+    "validation_mse": 0.18371269964255738,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.6410300731658936
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mean-MLP",
+    "validation_mse": 0.33667871356010437,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 42
+    },
+    "fit_and_evaluation_seconds": 2.15366792678833
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 11,
+    "method": "Mask-MLP",
+    "validation_mse": 0.19177287817001343,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 51
+    },
+    "fit_and_evaluation_seconds": 1.3326830863952637
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 11,
+    "method": "Aug-MLP",
+    "validation_mse": 0.31826645135879517,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 47
+    },
+    "fit_and_evaluation_seconds": 1.0064451694488525
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 11,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.43651723861694336,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 19
+    },
+    "fit_and_evaluation_seconds": 1.5505669116973877
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMiss",
+    "validation_mse": 0.2951592803001404,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 113
+    },
+    "fit_and_evaluation_seconds": 3.147986888885498
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 11,
+    "method": "NeuMISE",
+    "validation_mse": 0.29474690556526184,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 112
+    },
+    "fit_and_evaluation_seconds": 5.636521816253662
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 23,
+    "method": "Ridge+mask",
+    "validation_mse": 0.23594869673252106,
+    "parameters": {
+      "alpha": 0.1
+    },
+    "fit_and_evaluation_seconds": 0.0046041011810302734
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 23,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.1831422982578535,
+    "parameters": {
+      "min_samples_leaf": 5
+    },
+    "fit_and_evaluation_seconds": 2.568740129470825
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 23,
+    "method": "HistGB",
+    "validation_mse": 0.17503627101832234,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.6344969272613525
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mean-MLP",
+    "validation_mse": 0.3229357898235321,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 47
+    },
+    "fit_and_evaluation_seconds": 1.4054646492004395
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 23,
+    "method": "Mask-MLP",
+    "validation_mse": 0.17592427134513855,
+    "parameters": {
+      "lr": 0.0003,
+      "best_epoch": 195
+    },
+    "fit_and_evaluation_seconds": 1.4928398132324219
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 23,
+    "method": "Aug-MLP",
+    "validation_mse": 0.3047223389148712,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 11
+    },
+    "fit_and_evaluation_seconds": 0.7986879348754883
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 23,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.41534772515296936,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 108
+    },
+    "fit_and_evaluation_seconds": 1.9060771465301514
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMiss",
+    "validation_mse": 0.2593447268009186,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 49
+    },
+    "fit_and_evaluation_seconds": 3.0835721492767334
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 23,
+    "method": "NeuMISE",
+    "validation_mse": 0.28500500321388245,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 30
+    },
+    "fit_and_evaluation_seconds": 4.739195823669434
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 37,
+    "method": "Ridge+mask",
+    "validation_mse": 0.23753637075424194,
+    "parameters": {
+      "alpha": 10.0
+    },
+    "fit_and_evaluation_seconds": 0.004282712936401367
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 37,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.17990237283140031,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 2.58717679977417
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 37,
+    "method": "HistGB",
+    "validation_mse": 0.18345926517142497,
+    "parameters": {
+      "max_leaf_nodes": 31
+    },
+    "fit_and_evaluation_seconds": 0.729485273361206
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mean-MLP",
+    "validation_mse": 0.35040995478630066,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 37
+    },
+    "fit_and_evaluation_seconds": 1.4125947952270508
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 37,
+    "method": "Mask-MLP",
+    "validation_mse": 0.17150673270225525,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 29
+    },
+    "fit_and_evaluation_seconds": 1.4654767513275146
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 37,
+    "method": "Aug-MLP",
+    "validation_mse": 0.3067985475063324,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 3
+    },
+    "fit_and_evaluation_seconds": 1.1464970111846924
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 37,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.39209675788879395,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 101
+    },
+    "fit_and_evaluation_seconds": 2.096741199493408
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMiss",
+    "validation_mse": 0.2501455545425415,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 36
+    },
+    "fit_and_evaluation_seconds": 2.733374834060669
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 37,
+    "method": "NeuMISE",
+    "validation_mse": 0.3016104996204376,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 38
+    },
+    "fit_and_evaluation_seconds": 4.79032564163208
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 51,
+    "method": "Ridge+mask",
+    "validation_mse": 0.21697714924812317,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.004493236541748047
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 51,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.1602582577107767,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 2.560563802719116
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 51,
+    "method": "HistGB",
+    "validation_mse": 0.17306502818575684,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.6403288841247559
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mean-MLP",
+    "validation_mse": 0.31636425852775574,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 36
+    },
+    "fit_and_evaluation_seconds": 1.662621021270752
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 51,
+    "method": "Mask-MLP",
+    "validation_mse": 0.15997649729251862,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 58
+    },
+    "fit_and_evaluation_seconds": 1.2930591106414795
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 51,
+    "method": "Aug-MLP",
+    "validation_mse": 0.26863551139831543,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 30
+    },
+    "fit_and_evaluation_seconds": 0.8686337471008301
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 51,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.33616846799850464,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 41
+    },
+    "fit_and_evaluation_seconds": 1.931704044342041
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMiss",
+    "validation_mse": 0.23321305215358734,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 69
+    },
+    "fit_and_evaluation_seconds": 2.648559808731079
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 51,
+    "method": "NeuMISE",
+    "validation_mse": 0.2616657614707947,
+    "parameters": {
+      "lr": 0.001,
+      "best_epoch": 99
+    },
+    "fit_and_evaluation_seconds": 4.745567798614502
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 71,
+    "method": "Ridge+mask",
+    "validation_mse": 0.20000064373016357,
+    "parameters": {
+      "alpha": 100.0
+    },
+    "fit_and_evaluation_seconds": 0.004239797592163086
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 71,
+    "method": "ExtraTrees+mask",
+    "validation_mse": 0.1525380314481365,
+    "parameters": {
+      "min_samples_leaf": 2
+    },
+    "fit_and_evaluation_seconds": 2.5415358543395996
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 71,
+    "method": "HistGB",
+    "validation_mse": 0.14910977941794534,
+    "parameters": {
+      "max_leaf_nodes": 15
+    },
+    "fit_and_evaluation_seconds": 0.6538181304931641
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mean-MLP",
+    "validation_mse": 0.29790034890174866,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 39
+    },
+    "fit_and_evaluation_seconds": 1.7366559505462646
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 71,
+    "method": "Mask-MLP",
+    "validation_mse": 0.1469971388578415,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 31
+    },
+    "fit_and_evaluation_seconds": 1.35251784324646
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 71,
+    "method": "Aug-MLP",
+    "validation_mse": 0.26285815238952637,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 17
+    },
+    "fit_and_evaluation_seconds": 0.7929511070251465
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 71,
+    "method": "Iterative-MLP",
+    "validation_mse": 0.34406778216362,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 32
+    },
+    "fit_and_evaluation_seconds": 1.5912928581237793
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMiss",
+    "validation_mse": 0.25456172227859497,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 38
+    },
+    "fit_and_evaluation_seconds": 2.8852739334106445
+  },
+  {
+    "dataset": "wine_white",
+    "source": "Y",
+    "seed": 71,
+    "method": "NeuMISE",
+    "validation_mse": 0.24997158348560333,
+    "parameters": {
+      "lr": 0.003,
+      "best_epoch": 37
+    },
+    "fit_and_evaluation_seconds": 4.871832847595215
+  }
+]

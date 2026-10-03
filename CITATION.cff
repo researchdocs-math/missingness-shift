@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this experimental benchmark when using its implementation or results."
+type: software
+title: "Neural Learning under Missingness Shift: Experimental Benchmark"
+version: 1.0.0
+date-released: 2026-10-02
+license: MIT
+authors:
+  - family-names: Yavas
+    given-names: Cemil Emre
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+    affiliation: "School of Computing, Georgia Southern University"
+    email: "cemil@fairesresearch.org"
+keywords:
+  - missing data
+  - distribution shift
+  - neural networks
+  - reproducibility
+  - uncertainty quantification
+abstract: "A paired missingness-shift benchmark with nine regression pipelines, seven datasets, two source policies, five seeds, and thirteen target interventions. Matched-count reversals isolate changes in selection while preserving featurewise missing counts."
